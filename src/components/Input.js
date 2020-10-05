@@ -61,7 +61,7 @@ export default function Input() {
   return (
     <div className='widget-input container'>
       <h2>Input</h2>
-      <div id='output' style={style}></div> {inputValue.toLocaleUpperCase()}
+      <div id='output' style={style}>{inputValue.toLocaleUpperCase()}</div>
       <div>
         <input id='input' type='text' onChange={changeInput} value={inputValue}/> {/* STEP 6 */}
         <button id='resetInput' onClick={reset}>Reset</button>
