@@ -34,7 +34,7 @@ STEP 6:
   We need to add an extra prop to the <input /> element like so: value={inputValue}
 */
 
-import React, {useState} from 'react'; /* STEP 0 */
+import React, { useState } from 'react'; /* STEP 0 */
 
 export default function Input() {
   /* STEP 1 */
@@ -56,7 +56,7 @@ export default function Input() {
     fontSize: '1.5em',
     marginBottom: '0.3em',
     color: inputValue.length > 10 ? 'crimson' : 'royalblue', /* STEP 2 */
-  };
+  }
 
   return (
     <div className='widget-input container'>
