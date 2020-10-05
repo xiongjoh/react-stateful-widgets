@@ -55,12 +55,15 @@ export default function Counter() {
 
   const increment = () => {
     /* STEP 4 */
+    return setCount(count + 1)
   };
   const decrement = () => {
     /* STEP 5 */
+    return setCount(count - 1)
   };
   const reset = () => {
     /* STEP 6 */
+    return setCount(0)
   };
 
   const style = {
